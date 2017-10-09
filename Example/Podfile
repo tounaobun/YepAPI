@@ -1,0 +1,6 @@
+use_frameworks!
+target 'YepAPI_Tests' do
+  pod 'YepAPI', :path => '../'
+  
+  
+end
