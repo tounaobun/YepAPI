@@ -8,11 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		12D3E2C8922889CC8C87E9856A4C7ECC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		4658A6E21F8B38B2001AD490 /* NSMutableDictionary+Kit.m in Sources */ = {isa = PBXBuildFile; fileRef = 4658A6E01F8B38B2001AD490 /* NSMutableDictionary+Kit.m */; };
 		7CD2CE85DABBE5654FBEC9B40CE8AEB6 /* YepAPI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1ACD790BC7E72566BC422D2E9746592C /* YepAPI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9560D8B48512F4B792040BC497320BAD /* YepAPI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 638277FDAB82814D2978FC7103AA738B /* YepAPI-dummy.m */; };
 		B2B4FB3D84F7B89D846443C4A9062A08 /* Pods-YepAPI_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 81206122A1DB9DC8644930510D3614ED /* Pods-YepAPI_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BBF2DBFC8FF0C2B88019293DDB3EF65C /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 60809EC1087023B8D76FE39DF0457429 /* ReplaceMe.m */; };
 		D75362B7F7A1E86BF854D8C6011FA835 /* Pods-YepAPI_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 131202AD633E035536D02AEF2DD54698 /* Pods-YepAPI_Tests-dummy.m */; };
 		EE50B0558D7E588979CC7EC1693ECF61 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -35,9 +33,6 @@
 		1B424BF4EC7206F9E0C0BB9AC5BB7F76 /* Pods-YepAPI_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YepAPI_Tests-resources.sh"; sourceTree = "<group>"; };
 		28BE43511F242D80206EABE9F5BA1254 /* Pods_YepAPI_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YepAPI_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		43092BADF8AEC373FFE403378BAA04A5 /* YepAPI.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YepAPI.xcconfig; sourceTree = "<group>"; };
-		4658A6E01F8B38B2001AD490 /* NSMutableDictionary+Kit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+Kit.m"; sourceTree = "<group>"; };
-		4658A6E11F8B38B2001AD490 /* NSMutableDictionary+Kit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+Kit.h"; sourceTree = "<group>"; };
-		60809EC1087023B8D76FE39DF0457429 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = YepAPI/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		638277FDAB82814D2978FC7103AA738B /* YepAPI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YepAPI-dummy.m"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7EC2570A557578ED76738EF2ACE15BDA /* YepAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YepAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -144,9 +139,6 @@
 		BBF9C1B12824CEEFDC456F3602E7FF21 /* YepAPI */ = {
 			isa = PBXGroup;
 			children = (
-				4658A6E11F8B38B2001AD490 /* NSMutableDictionary+Kit.h */,
-				4658A6E01F8B38B2001AD490 /* NSMutableDictionary+Kit.m */,
-				60809EC1087023B8D76FE39DF0457429 /* ReplaceMe.m */,
 				5FAD4883CC750ABD2CB1D440426381A0 /* Support Files */,
 			);
 			name = YepAPI;
@@ -258,8 +250,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BBF2DBFC8FF0C2B88019293DDB3EF65C /* ReplaceMe.m in Sources */,
-				4658A6E21F8B38B2001AD490 /* NSMutableDictionary+Kit.m in Sources */,
 				9560D8B48512F4B792040BC497320BAD /* YepAPI-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
