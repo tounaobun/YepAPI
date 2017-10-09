@@ -1,0 +1,6 @@
+framework module YepAPI {
+  umbrella header "YepAPI-umbrella.h"
+
+  export *
+  module * { export * }
+}

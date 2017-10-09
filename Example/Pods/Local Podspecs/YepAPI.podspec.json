@@ -1,0 +1,22 @@
+{
+  "name": "YepAPI",
+  "version": "0.1.0",
+  "summary": "A short description of YepAPI.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/tounaobun@gmail.com/YepAPI",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "tounaobun@gmail.com": "tounaobun@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/tounaobun@gmail.com/YepAPI.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "YepAPI/Classes/**/*"
+}

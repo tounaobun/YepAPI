@@ -1,0 +1,16 @@
+PODS:
+  - YepAPI (0.1.0)
+
+DEPENDENCIES:
+  - YepAPI (from `../`)
+
+EXTERNAL SOURCES:
+  YepAPI:
+    :path: ../
+
+SPEC CHECKSUMS:
+  YepAPI: 89ef0c164139f91f1f437edb43093a9f8f0f61cb
+
+PODFILE CHECKSUM: f4b869d6894f8fe6be6ab65603e90c1cf5fb8cc4
+
+COCOAPODS: 1.3.1

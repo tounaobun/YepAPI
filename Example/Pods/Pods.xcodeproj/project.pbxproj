@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12D3E2C8922889CC8C87E9856A4C7ECC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		7CD2CE85DABBE5654FBEC9B40CE8AEB6 /* YepAPI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1ACD790BC7E72566BC422D2E9746592C /* YepAPI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9560D8B48512F4B792040BC497320BAD /* YepAPI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 638277FDAB82814D2978FC7103AA738B /* YepAPI-dummy.m */; };
+		B2B4FB3D84F7B89D846443C4A9062A08 /* Pods-YepAPI_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 81206122A1DB9DC8644930510D3614ED /* Pods-YepAPI_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBF2DBFC8FF0C2B88019293DDB3EF65C /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 60809EC1087023B8D76FE39DF0457429 /* ReplaceMe.m */; };
+		D75362B7F7A1E86BF854D8C6011FA835 /* Pods-YepAPI_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 131202AD633E035536D02AEF2DD54698 /* Pods-YepAPI_Tests-dummy.m */; };
+		EE50B0558D7E588979CC7EC1693ECF61 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		99FAF517DA768E5CBAD91A83B97A5F0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9C262254F4AC59C9698BA76B1432C8D;
+			remoteInfo = YepAPI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03FD7FA6B2542CC4458951EAA681BF21 /* Pods-YepAPI_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YepAPI_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		131202AD633E035536D02AEF2DD54698 /* Pods-YepAPI_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YepAPI_Tests-dummy.m"; sourceTree = "<group>"; };
+		1ACD790BC7E72566BC422D2E9746592C /* YepAPI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YepAPI-umbrella.h"; sourceTree = "<group>"; };
+		1AF3B82CA6AA128BD2757334A73402C4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B424BF4EC7206F9E0C0BB9AC5BB7F76 /* Pods-YepAPI_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YepAPI_Tests-resources.sh"; sourceTree = "<group>"; };
+		28BE43511F242D80206EABE9F5BA1254 /* Pods_YepAPI_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YepAPI_Tests.framework; path = "Pods-YepAPI_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		43092BADF8AEC373FFE403378BAA04A5 /* YepAPI.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YepAPI.xcconfig; sourceTree = "<group>"; };
+		60809EC1087023B8D76FE39DF0457429 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = YepAPI/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		638277FDAB82814D2978FC7103AA738B /* YepAPI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YepAPI-dummy.m"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7EC2570A557578ED76738EF2ACE15BDA /* YepAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YepAPI.framework; path = YepAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81206122A1DB9DC8644930510D3614ED /* Pods-YepAPI_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YepAPI_Tests-umbrella.h"; sourceTree = "<group>"; };
+		869F1D3C70BA22BF5953319729DC102A /* Pods-YepAPI_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YepAPI_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		97ED054E7C705128AC91CCD6A81AEF6D /* YepAPI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = YepAPI.modulemap; sourceTree = "<group>"; };
+		9BDEA82764BF78F955232377C9D8A14C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0F7C7AE059D69C8A0B22F80E9E84253 /* Pods-YepAPI_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-YepAPI_Tests.modulemap"; sourceTree = "<group>"; };
+		AB178668DC47F09FD96FB740C4ACDC47 /* Pods-YepAPI_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YepAPI_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D11EA57D32F92080157BEF0B5AB05C92 /* Pods-YepAPI_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YepAPI_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D823F19A641AA504B83FD8E2DA4204FC /* Pods-YepAPI_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YepAPI_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		DA5CD88D2B4A190B9F1CC900FA14B371 /* YepAPI-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YepAPI-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4264DFD5C92AEA952EB4AEAEB482AFC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE50B0558D7E588979CC7EC1693ECF61 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		564EC549F10ADFDA6E2179B761C7AAA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12D3E2C8922889CC8C87E9856A4C7ECC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BF070D892EC27A0B44AA400B230BA11 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28BE43511F242D80206EABE9F5BA1254 /* Pods_YepAPI_Tests.framework */,
+				7EC2570A557578ED76738EF2ACE15BDA /* YepAPI.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2488C994D9DB075E27096B1BB4BB97CB /* Pods-YepAPI_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9BDEA82764BF78F955232377C9D8A14C /* Info.plist */,
+				A0F7C7AE059D69C8A0B22F80E9E84253 /* Pods-YepAPI_Tests.modulemap */,
+				869F1D3C70BA22BF5953319729DC102A /* Pods-YepAPI_Tests-acknowledgements.markdown */,
+				03FD7FA6B2542CC4458951EAA681BF21 /* Pods-YepAPI_Tests-acknowledgements.plist */,
+				131202AD633E035536D02AEF2DD54698 /* Pods-YepAPI_Tests-dummy.m */,
+				D823F19A641AA504B83FD8E2DA4204FC /* Pods-YepAPI_Tests-frameworks.sh */,
+				1B424BF4EC7206F9E0C0BB9AC5BB7F76 /* Pods-YepAPI_Tests-resources.sh */,
+				81206122A1DB9DC8644930510D3614ED /* Pods-YepAPI_Tests-umbrella.h */,
+				AB178668DC47F09FD96FB740C4ACDC47 /* Pods-YepAPI_Tests.debug.xcconfig */,
+				D11EA57D32F92080157BEF0B5AB05C92 /* Pods-YepAPI_Tests.release.xcconfig */,
+			);
+			name = "Pods-YepAPI_Tests";
+			path = "Target Support Files/Pods-YepAPI_Tests";
+			sourceTree = "<group>";
+		};
+		45451FC7206A463A6C23F8C467195A78 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2488C994D9DB075E27096B1BB4BB97CB /* Pods-YepAPI_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5FAD4883CC750ABD2CB1D440426381A0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1AF3B82CA6AA128BD2757334A73402C4 /* Info.plist */,
+				97ED054E7C705128AC91CCD6A81AEF6D /* YepAPI.modulemap */,
+				43092BADF8AEC373FFE403378BAA04A5 /* YepAPI.xcconfig */,
+				638277FDAB82814D2978FC7103AA738B /* YepAPI-dummy.m */,
+				DA5CD88D2B4A190B9F1CC900FA14B371 /* YepAPI-prefix.pch */,
+				1ACD790BC7E72566BC422D2E9746592C /* YepAPI-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/YepAPI";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				B23E99028EFFB787F341D752FEF23635 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				0BF070D892EC27A0B44AA400B230BA11 /* Products */,
+				45451FC7206A463A6C23F8C467195A78 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B23E99028EFFB787F341D752FEF23635 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BBF9C1B12824CEEFDC456F3602E7FF21 /* YepAPI */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BBF9C1B12824CEEFDC456F3602E7FF21 /* YepAPI */ = {
+			isa = PBXGroup;
+			children = (
+				60809EC1087023B8D76FE39DF0457429 /* ReplaceMe.m */,
+				5FAD4883CC750ABD2CB1D440426381A0 /* Support Files */,
+			);
+			name = YepAPI;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B75C581F977A7407696073BCADBEE6C3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2B4FB3D84F7B89D846443C4A9062A08 /* Pods-YepAPI_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C58A66F2EA9B702A00CC0007DBD93059 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CD2CE85DABBE5654FBEC9B40CE8AEB6 /* YepAPI-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1FD10A0F53FA45BBEAF24551205D80C1 /* Pods-YepAPI_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED264242675457F1A88CE9D58E28D5F6 /* Build configuration list for PBXNativeTarget "Pods-YepAPI_Tests" */;
+			buildPhases = (
+				7B796E5AA1BB6F6F6CCDEACC881FFFD9 /* Sources */,
+				4264DFD5C92AEA952EB4AEAEB482AFC7 /* Frameworks */,
+				B75C581F977A7407696073BCADBEE6C3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7B07FBC01CF2BD841DADD9E38AF29D1 /* PBXTargetDependency */,
+			);
+			name = "Pods-YepAPI_Tests";
+			productName = "Pods-YepAPI_Tests";
+			productReference = 28BE43511F242D80206EABE9F5BA1254 /* Pods_YepAPI_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A9C262254F4AC59C9698BA76B1432C8D /* YepAPI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7151F5570BF709D018C341CD31ABBB82 /* Build configuration list for PBXNativeTarget "YepAPI" */;
+			buildPhases = (
+				0300D98CEE60662F093460DD245D2DFD /* Sources */,
+				564EC549F10ADFDA6E2179B761C7AAA5 /* Frameworks */,
+				C58A66F2EA9B702A00CC0007DBD93059 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YepAPI;
+			productName = YepAPI;
+			productReference = 7EC2570A557578ED76738EF2ACE15BDA /* YepAPI.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 0BF070D892EC27A0B44AA400B230BA11 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1FD10A0F53FA45BBEAF24551205D80C1 /* Pods-YepAPI_Tests */,
+				A9C262254F4AC59C9698BA76B1432C8D /* YepAPI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0300D98CEE60662F093460DD245D2DFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBF2DBFC8FF0C2B88019293DDB3EF65C /* ReplaceMe.m in Sources */,
+				9560D8B48512F4B792040BC497320BAD /* YepAPI-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B796E5AA1BB6F6F6CCDEACC881FFFD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D75362B7F7A1E86BF854D8C6011FA835 /* Pods-YepAPI_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F7B07FBC01CF2BD841DADD9E38AF29D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YepAPI;
+			target = A9C262254F4AC59C9698BA76B1432C8D /* YepAPI */;
+			targetProxy = 99FAF517DA768E5CBAD91A83B97A5F0D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		56ABF6F7CE4504E541B4863CC1A18B45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43092BADF8AEC373FFE403378BAA04A5 /* YepAPI.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YepAPI/YepAPI-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YepAPI/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YepAPI/YepAPI.modulemap";
+				PRODUCT_NAME = YepAPI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		629B7BBD1364CF70DE1BF855C9C8994A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43092BADF8AEC373FFE403378BAA04A5 /* YepAPI.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YepAPI/YepAPI-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YepAPI/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YepAPI/YepAPI.modulemap";
+				PRODUCT_NAME = YepAPI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CE31FBCDB227A6B0AD3C5605E83245DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D11EA57D32F92080157BEF0B5AB05C92 /* Pods-YepAPI_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YepAPI_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YepAPI_Tests/Pods-YepAPI_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_YepAPI_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CE9E3DB6120117DB4E4BF0A593A77CC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB178668DC47F09FD96FB740C4ACDC47 /* Pods-YepAPI_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YepAPI_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YepAPI_Tests/Pods-YepAPI_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_YepAPI_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */,
+				731DC216E1A58545B559F6E0A2418060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7151F5570BF709D018C341CD31ABBB82 /* Build configuration list for PBXNativeTarget "YepAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56ABF6F7CE4504E541B4863CC1A18B45 /* Debug */,
+				629B7BBD1364CF70DE1BF855C9C8994A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED264242675457F1A88CE9D58E28D5F6 /* Build configuration list for PBXNativeTarget "Pods-YepAPI_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE9E3DB6120117DB4E4BF0A593A77CC4 /* Debug */,
+				CE31FBCDB227A6B0AD3C5605E83245DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
